@@ -1,0 +1,18 @@
+.wrapper {
+    border: 1px solid green; 
+    display: grid;
+    justify-content: center;
+    background: lightgrey;
+}
+
+.wrapper input, .wrapper button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.wrapper button:hover {
+    background: green;
+    color: white;
+}
